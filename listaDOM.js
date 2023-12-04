@@ -12,7 +12,8 @@ function agregarLista(){
     
     let botonAñadirTarea = document.createElement("button");
     botonAñadirTarea.value="Añadir tarea";
-    botonAñadirTarea.addEventListener("click", anadirTarea);
+
+    //botonAñadirTarea.addEventListener("click", anadirTarea);
     let botonBorrarLista = document.createElement("button");
     botonBorrarLista.value="Borrar Lista";
 
